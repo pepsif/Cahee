@@ -1,0 +1,82 @@
+body {
+cursor:default;
+
+}
+
+/* -------HEADER---MENU-------- */
+.header__menu-item {
+    position: relative;
+}
+
+.header__menu-item:after {
+    /* font-size:20px; */
+    position: absolute;
+    left: 50%;
+    content: '';
+    height: 40px;
+    height: 5px;
+    background: #f00;
+    transition: all 0.2s linear;
+    width: 0;
+    bottom: -5px;
+}
+
+.header__menu-item:hover:after {
+    width: 80px;
+    margin-left: -40px;
+}
+
+.header__menu-item a:hover {
+    opacity: 0.7;
+    text-shadow: 10px 5px 30px #8d4040;
+}
+
+/* ------SCROLL-------------- */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.main__scroll {
+    animation-name: bounce;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+/*     transform: translateY(-10px);  */
+    animation-iteration-count: infinite;
+}
+
+/* ------ABOUT--US-------- */
+
+.section2 .container {
+
+
+}
+
+/* ------GALLERY---------- */
+.section4-button {
+cursor:pointer;
+    
+}
+.section4 img {
+border-radius:15px;
+
+}
+.section4 img:hover {
+transform:scale(1.1)rotate(-1deg);
+ 
+ transition:0.3s;   
+}
+.section4-button:hover {
+transform:scale(1.1);
+/*  border: 25px solid #3559a8;    */
+
+}
