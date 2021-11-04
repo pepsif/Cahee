@@ -30,6 +30,12 @@ cursor:default;
     opacity: 0.7;
     text-shadow: 10px 5px 30px #8d4040;
 }
+.main__info-button:hover {
+transform:scale(1.05);
+ box-shadow:5px 5px 5px  black;
+ transition:0.3s;
+}
+
 
 /* ------SCROLL-------------- */
 @keyframes bounce {
@@ -60,6 +66,15 @@ cursor:default;
 
 
 }
+/* ------OUR--SERVICES------- */
+.section3-list-item:hover {
+opacity:0.8;
+ transform:scale(1.03);   
+ box-shadow:5px 5px 5px  black;
+ transition:0.3s;
+
+}
+
 
 /* ------GALLERY---------- */
 .section4-button {
@@ -68,15 +83,54 @@ cursor:pointer;
 }
 .section4 img {
 border-radius:15px;
-
+ 
 }
 .section4 img:hover {
-transform:scale(1.1)rotate(-1deg);
- 
- transition:0.3s;   
+transform:scale(1.05)rotate(-0.6deg);
+ box-shadow:5px 5px 5px  black;
+ transition:0.3s;
+  
 }
 .section4-button:hover {
-transform:scale(1.1);
+transform:scale(1.05);
 /*  border: 25px solid #3559a8;    */
-
+box-shadow:5px 5px 5px  black;
+ transition:0.3s;
 }
+
+/* ------SUBSCRIBE-TO-US--- */
+.subscribe-input-block input:hover {
+background-color:#e2ecf6;
+box-shadow:5px 5px 5px  #d1d8eb;
+ transition:0.3s;
+}
+.subscribe-botton:hover {
+transform:scale(1.05);
+box-shadow:5px 5px 5px  black;
+ transition:0.3s;
+}
+/* ------BLOG--------- */
+.section6-card:hover {
+transform:scale(1.05);
+box-shadow:5px 5px 5px  black;
+ transition:0.3s;
+}
+.section6-button:hover {
+transform:scale(1.05);
+ box-shadow:5px 5px 5px  black;
+ transition:0.3s;   
+}
+/* ------CONTACT--------- */
+
+.section7-form-input:hover {
+
+  transform:scale(1.01);
+ box-shadow:5px 5px 5px  black;
+ transition:0.3s;   
+}
+.form-textarea:hover {
+transform:scale(1.01);
+ box-shadow:5px 5px 5px  black;
+ transition:0.3s;
+    
+} 
